@@ -1,0 +1,9 @@
+export const SHOW_LOADER = "SHOW_LOADER";
+export const FETCH_HEROES = "FETCH_HEROES";
+export const FETCH_HERO = "FETCH_HERO";
+export const FETCH_MORE_HEROES = "FETCH_MORE_HEROES";
+export const FILTER = "FILTER";
+export const SEARCH = "SEARCH";
+export const FETCH_HOME_WORLD = "FETCH_HOME_WORLD";
+export const FETCH_FILMS = "FETCH_FILMS";
+export const FAVOURITE = "FAVOURITE";

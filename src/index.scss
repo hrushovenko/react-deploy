@@ -1,0 +1,84 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-filter:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-filter:hover {
+  background-color: #ddd;
+}
+
+.btn-filter.active {
+  background-color: #666;
+  color: white;
+}
+
+
+#myInput {
+  background-image: url("../src/css/search.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 14px 20px 12px 52px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+/* Split the screen in half */
+// .split {
+//   height: 100%;
+//   width: 50%;
+//   // position: fixed;
+//   z-index: 1;
+//   top: 0;
+//   // overflow-x: hidden;
+//   padding-top: 20px;
+// }
+
+/* Control the left side */
+// .left {
+//   left: 0;
+//   float: left;
+//   // background-color: #111;
+// }
+
+/* Control the right side */
+// .right {
+//   right: 0;
+//   float: right;
+//   // background-color: red;
+// }
+
+// .centered {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   text-align: center;
+// }
+.star {
+  margin-left: 20px;
+}
